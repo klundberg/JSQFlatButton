@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
 	s.license			= 'MIT'
 	s.authors			= { 'Jesse Squires' => 'jesse.squires.developer@gmail.com' }
 	s.source			= { :git => 'https://github.com/jessesquires/JSQFlatButton.git', :tag => s.version.to_s }
-	s.platform			= :ios, '6.0'
+	s.ios.deployment_target			= '6.0'
+	s.tvos.deployment_target = '9.0'
 	s.source_files		= 'JSQFlatButton/Classes/*'
 	s.framework			= 'QuartzCore'
 	s.requires_arc		= true

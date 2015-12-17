@@ -19,7 +19,7 @@ static CGFloat const kJSQColorAlphaDisabled = 0.75f;
 
 - (void)jsq_setup
 {
-    self.showsTouchWhenHighlighted = NO;
+//    self.showsTouchWhenHighlighted = NO;
     self.adjustsImageWhenHighlighted = NO;
     self.adjustsImageWhenDisabled = NO;
     self.titleLabel.shadowOffset = CGSizeZero;
